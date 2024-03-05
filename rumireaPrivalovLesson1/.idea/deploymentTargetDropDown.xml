@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="deploymentTargetDropDown">
+    <value>
+      <entry key="app">
+        <State>
+          <targetSelectedWithDropDown>
+            <Target>
+              <type value="QUICK_BOOT_TARGET" />
+              <deviceKey>
+                <Key>
+                  <type value="VIRTUAL_DEVICE_PATH" />
+                  <value value="C:\Users\timap\.android\avd\Android_Accelerated_x86_Oreo.avd" />
+                </Key>
+              </deviceKey>
+            </Target>
+          </targetSelectedWithDropDown>
+          <timeTargetWasSelectedWithDropDown value="2024-02-16T14:35:39.279383200Z" />
+        </State>
+      </entry>
+      <entry key="app.buttonclicker">
+        <State />
+      </entry>
+      <entry key="app.control_lesson1">
+        <State />
+      </entry>
+    </value>
+  </component>
+</project>
