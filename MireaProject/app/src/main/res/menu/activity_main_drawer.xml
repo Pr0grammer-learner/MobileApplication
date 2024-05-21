@@ -26,7 +26,39 @@
             android:title="@string/menu_webview" />
         <item
             android:id="@+id/BMIFragment"
-            android:icon="@android:drawable/ic_search_category_default"
+            android:icon="?android:attr/alertDialogIcon"
             android:title="@string/menu_service" />
+        <item
+            android:id="@+id/accelerometerFragment"
+            android:icon="@android:drawable/ic_menu_compass"
+            android:title="@string/menu_accelerometer" />
+        <item
+            android:id="@+id/cameraFragment"
+            android:icon="@android:drawable/ic_menu_camera"
+            android:title="@string/menu_camera" />
+        <item
+            android:id="@+id/audioRecordFragment"
+            android:icon="@android:drawable/presence_audio_online"
+            android:title="@string/menu_record" />
+        <item
+            android:id="@+id/profileFragment"
+            android:icon="@android:drawable/ic_menu_myplaces"
+            android:title="@string/menu_profile" />
+        <item
+            android:id="@+id/fileHandlingFragment"
+            android:icon="@android:drawable/ic_popup_sync"
+            android:title="@string/menu_file" />]
+        <item
+            android:id="@+id/authorization"
+            android:icon="@android:drawable/presence_offline"
+            android:title="@string/menu_auth" />
+        <item
+            android:id="@+id/jokeFragment"
+            android:icon="@android:drawable/ic_menu_delete"
+            android:title="@string/menu_joke" />
+        <item
+            android:id="@+id/placesFragment"
+            android:icon="@android:drawable/ic_menu_delete"
+            android:title="@string/menu_map" />
     </group>
 </menu>

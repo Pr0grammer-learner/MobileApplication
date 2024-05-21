@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "104937017291",
+    "project_id": "ru-mirea-privalov-lesson7",
+    "storage_bucket": "ru-mirea-privalov-lesson7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:104937017291:android:4e0f56d9b4d435ac73b04e",
+        "android_client_info": {
+          "package_name": "com.mirea.privalov.firebaseauth"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8y_-ChMA5gPB7zNPbg9UryyxIUOrZ4-c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

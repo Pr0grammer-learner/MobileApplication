@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/poetImageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:src="@drawable/pushkin" />
+
+    <EditText
+        android:id="@+id/editTextPoetName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/poetImageView"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:hint="Имя поэта"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/editTextFavoriteMovie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextPoetName"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:hint="Любимый фильм"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/buttonSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Сохранить"
+        android:layout_below="@id/editTextFavoriteMovie"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/favoriteMovieTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Любимый фильм:"
+        android:layout_below="@id/buttonSave"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewPoetName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Имя выбранного поэта:"
+        android:layout_below="@id/favoriteMovieTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"/>
+
+</RelativeLayout>

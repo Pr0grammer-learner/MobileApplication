@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/editTextGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Group Number" />
+
+    <EditText
+        android:id="@+id/editTextNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="List Number"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/editTextMovie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Favorite Movie/Series"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/buttonSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save" />
+
+</LinearLayout>

@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">YandexDriver</string>
+    <string name="unknown_error_message">Не понял\n</string>
+    <string name="remote_error_message">Чето сегодня не едется!</string>
+    <string name="network_error_message">Инет не работает((</string>
+</resources>

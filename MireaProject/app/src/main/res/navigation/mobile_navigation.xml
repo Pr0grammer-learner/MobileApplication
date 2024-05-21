@@ -36,4 +36,44 @@
         android:id="@+id/BMIFragment"
         android:name="com.mirea.privalov.mireaproject.ui.BMI.BMIFragment"
         android:label="@string/menu_service" />
+    <fragment
+        android:id="@+id/accelerometerFragment"
+        android:name="com.mirea.privalov.mireaproject.ui.accelerometer.AccelerometerFragment"
+        android:label="@string/menu_accelerometer"
+        tools:layout="@layout/fragment_accelerometer" />
+    <fragment
+        android:id="@+id/cameraFragment"
+        android:name="com.mirea.privalov.mireaproject.ui.Camera.CameraFragment"
+        android:label="@string/menu_camera"
+        tools:layout="@layout/fragment_camera"/>
+    <fragment
+        android:id="@+id/audioRecordFragment"
+        android:name="com.mirea.privalov.mireaproject.ui.audiorecord.AudioRecordFragment"
+        android:label="@string/menu_record"
+        tools:layout="@layout/fragment_audio_record" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.mirea.privalov.mireaproject.ui.profile.ProfileFragment"
+        android:label="@string/menu_profile"
+        tools:layout="@layout/fragment_profile"/>
+    <fragment
+        android:id="@+id/fileHandlingFragment"
+        android:name="com.mirea.privalov.mireaproject.ui.FileHandling.FileHandlingFragment"
+        android:label="@string/menu_file"
+        tools:layout="@layout/fragment_file_handling"/>
+    <activity
+        android:id="@+id/authorization"
+        android:name="com.mirea.privalov.mireaproject.authorization"
+        android:label="@string/menu_auth"
+        tools:layout="@layout/activity_authorization" />
+    <fragment
+        android:id="@+id/jokeFragment"
+        android:name="com.mirea.privalov.mireaproject.ui.API.JokeFragment"
+        android:label="@string/menu_joke"
+        tools:layout="@layout/fragment_joke" />
+    <fragment
+        android:id="@+id/placesFragment"
+        android:name="com.mirea.privalov.mireaproject.ui.PlacesFragment"
+        android:label="@string/menu_map"
+        tools:layout="@layout/fragment_places" />
 </navigation>
